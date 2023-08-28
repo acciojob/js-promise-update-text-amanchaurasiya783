@@ -8,7 +8,7 @@ function generateText(){
 }
 
 async function updateHTML(){
-	const text = await generateText;
+	const text = await generateText();
 	document.getElementById('output').innerHTML = text;
 }
 
